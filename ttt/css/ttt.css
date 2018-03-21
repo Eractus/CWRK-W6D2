@@ -1,0 +1,36 @@
+h1 {
+  font-weight: 700;
+  font-family: sans-serif;
+  margin: auto;
+  font-size: 36px;
+  align-items: center;
+  justify-content: center;
+}
+
+.row {
+  float: left;
+}
+
+.square {
+  border: 3px solid #183666;
+  width: 150px;
+  height: 150px;
+}
+
+.unclicked:hover {
+  background-color: yellow;
+}
+
+.unclicked {
+  background-color: #ccc;
+}
+
+.x {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Red_X.svg/2000px-Red_X.svg.png");
+  background-size: contain;
+}
+
+.o {
+  background-image: url("https://zippy.gfycat.com/ShadowyMeanAyeaye.gif");
+  background-size: contain;
+}
